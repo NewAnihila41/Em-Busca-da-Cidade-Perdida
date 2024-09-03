@@ -1,6 +1,6 @@
 
 body {
-    background-color: #0a5296;
+    background-color: #000000;
     color: white;
     font-family: "Bai Jamjuree", sans-serif;
     display: flex;
@@ -14,7 +14,7 @@ button {
     background-color: #148065;
     color: rgb(255, 255, 255);
     font-family: "Bai Jamjuree", sans-serif;
-    border: solid 2px;
+    border: solid 1px;
 }
 
 .passo {
@@ -26,10 +26,12 @@ button {
 }
 
 p {
-    border: solid 4px rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
+    padding-right: 3px;
+    padding-left: 3px;
 }
 
 div {
-    border-bottom-right-radius: 2px;
-    border-bottom: solid 2vb;
+    border-bottom: solid 2px;
+    padding-bottom: 10px;
 }
